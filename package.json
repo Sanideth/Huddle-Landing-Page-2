@@ -17,7 +17,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch:sass": "node-sass src/sass/main.scss src/App.css -w",
-    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" src/App.css -o src/App.prefixed.css"
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" src/App.css -o src/App.prefixed.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +45,6 @@
     "node-sass": "^5.0.0",
     "postcss": "^8.2.9",
     "postcss-cli": "^8.3.1"
-  }
+  },
+  "homepage": "http://Sanideth.github.io/Huddle-Landing-Page-2"
 }
