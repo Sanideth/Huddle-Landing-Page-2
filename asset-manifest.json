@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Huddle-Landing-Page-2/static/css/main.949eb928.chunk.css",
+    "main.css": "/Huddle-Landing-Page-2/static/css/main.1cbd7086.chunk.css",
     "main.js": "/Huddle-Landing-Page-2/static/js/main.747f3fe5.chunk.js",
     "main.js.map": "/Huddle-Landing-Page-2/static/js/main.747f3fe5.chunk.js.map",
     "runtime-main.js": "/Huddle-Landing-Page-2/static/js/runtime-main.1770faaf.js",
@@ -10,7 +10,7 @@
     "static/js/3.5d0b6ab4.chunk.js": "/Huddle-Landing-Page-2/static/js/3.5d0b6ab4.chunk.js",
     "static/js/3.5d0b6ab4.chunk.js.map": "/Huddle-Landing-Page-2/static/js/3.5d0b6ab4.chunk.js.map",
     "index.html": "/Huddle-Landing-Page-2/index.html",
-    "static/css/main.949eb928.chunk.css.map": "/Huddle-Landing-Page-2/static/css/main.949eb928.chunk.css.map",
+    "static/css/main.1cbd7086.chunk.css.map": "/Huddle-Landing-Page-2/static/css/main.1cbd7086.chunk.css.map",
     "static/js/2.cb3b0d81.chunk.js.LICENSE.txt": "/Huddle-Landing-Page-2/static/js/2.cb3b0d81.chunk.js.LICENSE.txt",
     "static/media/facebook.69afda5b.svg": "/Huddle-Landing-Page-2/static/media/facebook.69afda5b.svg",
     "static/media/icon-email.19ab894b.svg": "/Huddle-Landing-Page-2/static/media/icon-email.19ab894b.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.1770faaf.js",
     "static/js/2.cb3b0d81.chunk.js",
-    "static/css/main.949eb928.chunk.css",
+    "static/css/main.1cbd7086.chunk.css",
     "static/js/main.747f3fe5.chunk.js"
   ]
 }
