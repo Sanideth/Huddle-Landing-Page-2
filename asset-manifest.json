@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Huddle-Landing-Page-2/static/css/main.949eb928.chunk.css",
+    "main.js": "/Huddle-Landing-Page-2/static/js/main.747f3fe5.chunk.js",
+    "main.js.map": "/Huddle-Landing-Page-2/static/js/main.747f3fe5.chunk.js.map",
+    "runtime-main.js": "/Huddle-Landing-Page-2/static/js/runtime-main.1770faaf.js",
+    "runtime-main.js.map": "/Huddle-Landing-Page-2/static/js/runtime-main.1770faaf.js.map",
+    "static/js/2.cb3b0d81.chunk.js": "/Huddle-Landing-Page-2/static/js/2.cb3b0d81.chunk.js",
+    "static/js/2.cb3b0d81.chunk.js.map": "/Huddle-Landing-Page-2/static/js/2.cb3b0d81.chunk.js.map",
+    "static/js/3.5d0b6ab4.chunk.js": "/Huddle-Landing-Page-2/static/js/3.5d0b6ab4.chunk.js",
+    "static/js/3.5d0b6ab4.chunk.js.map": "/Huddle-Landing-Page-2/static/js/3.5d0b6ab4.chunk.js.map",
+    "index.html": "/Huddle-Landing-Page-2/index.html",
+    "static/css/main.949eb928.chunk.css.map": "/Huddle-Landing-Page-2/static/css/main.949eb928.chunk.css.map",
+    "static/js/2.cb3b0d81.chunk.js.LICENSE.txt": "/Huddle-Landing-Page-2/static/js/2.cb3b0d81.chunk.js.LICENSE.txt",
+    "static/media/facebook.69afda5b.svg": "/Huddle-Landing-Page-2/static/media/facebook.69afda5b.svg",
+    "static/media/icon-email.19ab894b.svg": "/Huddle-Landing-Page-2/static/media/icon-email.19ab894b.svg",
+    "static/media/icon-location.a681f02d.svg": "/Huddle-Landing-Page-2/static/media/icon-location.a681f02d.svg",
+    "static/media/icon-phone.43c05d1a.svg": "/Huddle-Landing-Page-2/static/media/icon-phone.43c05d1a.svg",
+    "static/media/illustration-flowing-conversation.447b9b47.svg": "/Huddle-Landing-Page-2/static/media/illustration-flowing-conversation.447b9b47.svg",
+    "static/media/illustration-grow-together.3c29212c.svg": "/Huddle-Landing-Page-2/static/media/illustration-grow-together.3c29212c.svg",
+    "static/media/illustration-mockups.7b6cb4d9.svg": "/Huddle-Landing-Page-2/static/media/illustration-mockups.7b6cb4d9.svg",
+    "static/media/illustration-your-users.c07ebfaa.svg": "/Huddle-Landing-Page-2/static/media/illustration-your-users.c07ebfaa.svg",
+    "static/media/instagram.9bd6921d.svg": "/Huddle-Landing-Page-2/static/media/instagram.9bd6921d.svg",
+    "static/media/logo.3c5a8544.svg": "/Huddle-Landing-Page-2/static/media/logo.3c5a8544.svg",
+    "static/media/twitter.03576904.svg": "/Huddle-Landing-Page-2/static/media/twitter.03576904.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1770faaf.js",
+    "static/js/2.cb3b0d81.chunk.js",
+    "static/css/main.949eb928.chunk.css",
+    "static/js/main.747f3fe5.chunk.js"
+  ]
+}
