@@ -1,31 +1,39 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
-    color: $color-cyan-dark;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  color: $color-cyan-dark;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
-    color: inherit;
-    font-weight: 600;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: inherit;
+  font-weight: 600;
 }
 
-
-a {
-    text-decoration: none;
+a,
+a:visited {
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
+  & a {
+    color: #fff;
+  }
 }
