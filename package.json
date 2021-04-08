@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch:sass": "node-sass src/sass/main.scss src/App.css -w"
+    "watch:sass": "node-sass src/sass/main.scss src/App.css -w",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" src/App.css -o src/App.prefixed.css"
   },
   "eslintConfig": {
     "extends": [

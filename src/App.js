@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.prefixed.css";
 import Header from "./layout/Header";
 import Main from "./layout/Main";
 import Footer from "./layout/Footer";
