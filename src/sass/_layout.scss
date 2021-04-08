@@ -1,22 +1,50 @@
 .header {
   background-color: $color-cyan-light;
   padding: 3rem 5rem;
+  @media only screen and (max-width: $bp-tiny) {
+    padding: 3rem 1rem;
+  }
 
   &__intro {
-    padding: 4rem 0;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 6rem;
   }
+
+  &__logo-container {
+    & img {
+      width: 100%;
+      vertical-align: middle;
+    }
+    @media only screen and (max-width: $bp-tiny) {
+      flex-basis: 40%;
+    }
+  }
+
+  &__button-container {
+    text-align: right;
+    @media only screen and (max-width: $bp-tiny) {
+    }
+  }
+
   &__hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media only screen and (max-width: $bp-tiny) {
+      flex-direction: column;
+      text-align: center;
+    }
   }
   &__hero-text-container {
     flex-basis: 43%;
     & > *:not(:last-child) {
       margin-bottom: 4rem;
+    }
+    @media only screen and (max-width: $bp-tiny) {
+      margin-bottom: 6rem;
     }
   }
   &__hero-img-container {
@@ -26,7 +54,9 @@
 
 .main {
   padding: 10rem 5rem;
-
+  @media only screen and (max-width: $bp-tiny) {
+    padding: 10rem 2rem;
+  }
   &__info-boxes {
     & > *:not(:last-child) {
       margin-bottom: 3rem;
@@ -40,15 +70,27 @@
     padding: 4rem 4rem 4rem 10rem;
     box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.1);
     border-radius: 1.5rem;
+    @media only screen and (max-width: $bp-tiny) {
+      flex-direction: column;
+      text-align: center;
+      padding: 4rem;
+    }
   }
   &__text-container {
     flex-basis: 49%;
     & > *:not(:last-child) {
       margin-bottom: 2rem;
     }
+    @media only screen and (max-width: $bp-tiny) {
+      order: 2;
+    }
   }
   &__img-container {
     flex-basis: 40%;
+    @media only screen and (max-width: $bp-tiny) {
+      order: 1;
+      margin-bottom: 4rem;
+    }
   }
 }
 
@@ -56,7 +98,7 @@
   & a,
   & svg,
   & p {
-    opacity: 0.96;
+    opacity: 0.87;
   }
   &__cta {
     background-image: linear-gradient(180deg, #fff 70%, $color-cyan-dark 0);
@@ -71,6 +113,13 @@
     position: relative;
     background-color: #fff;
     border-radius: 1.5rem;
+    @media only screen and (max-width: $bp-small) {
+      width: 70%;
+    }
+    @media only screen and (max-width: $bp-tiny) {
+      width: 90%;
+      padding: 3rem 2rem;
+    }
 
     & > * {
       margin-bottom: 4rem;
@@ -84,16 +133,34 @@
     background-color: $color-cyan-dark;
     padding: 6rem 5rem;
     color: $color-cyan-light;
+    @media only screen and (max-width: $bp-tiny) {
+      padding: 6rem 2rem;
+    }
   }
   &__info {
     display: flex;
     justify-content: space-between;
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+
+      & > *:not(:last-child) {
+        margin-bottom: 4rem;
+      }
+    }
   }
   &__contact {
     flex-basis: 35%;
+    @media only screen and (max-width: $bp-small) {
+      & > *:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+    }
   }
   &__nav {
     flex-basis: 32%;
+    @media only screen and (max-width: $bp-small) {
+      flex-basis: 27%;
+    }
   }
 
   &__contact {
@@ -107,6 +174,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 2rem;
+    @media only screen and (max-width: $bp-small) {
+      grid-row-gap: 1rem;
+      grid-template-columns: none;
+    }
   }
   &__list-item {
     & > a {
@@ -120,6 +191,9 @@
     flex-basis: 25%;
     display: flex;
     flex-direction: column;
+    @media only screen and (max-width: $bp-small) {
+      text-align: center;
+    }
   }
 
   &__social-icons-container {
@@ -151,6 +225,10 @@
         height: 1.5rem;
         transition: all 0.2s;
       }
+    }
+    @media only screen and (max-width: $bp-small) {
+      align-self: center;
+      margin-bottom: 3rem;
     }
   }
 

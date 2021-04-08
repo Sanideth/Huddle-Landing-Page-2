@@ -1,4 +1,12 @@
+// main variables
+
 $color-pink: hsl(322, 100%, 66%);
 $color-cyan-light: hsl(193, 100%, 96%);
 $color-cyan-dark: hsl(192, 100%, 9%);
 $color-gray: hsl(208, 11%, 55%);
+
+//media query variables
+
+$bp-medium: 62.5em; // bp at 1000px
+$bp-small: 50em; // bp at 800px
+$bp-tiny: 37.5em; // bp at 600px

@@ -1,7 +1,7 @@
-import Logo from "../components/Logo";
 import Button from "../components/Button";
 import Heading from "../components/Heading";
 import Image from "../components/Image";
+import Logo from "../img/logo.svg";
 import heroImgSrc from "../img/illustration-mockups.svg";
 
 const Header = () => {
@@ -9,8 +9,12 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="header__intro">
-          <Logo firstColor="#ff52bf" secondColor="#00252e" />
-          <Button text="Try It Free" className="white" />
+          <div className="header__logo-container">
+            <img src={Logo} alt="Main Logo" className="logo" />
+          </div>
+          <div className="header__button-container">
+            <Button text="Try It Free" className="white" />
+          </div>
         </div>
         <div className="header__hero">
           <div className="header__hero-text-container">
