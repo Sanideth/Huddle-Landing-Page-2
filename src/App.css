@@ -101,7 +101,10 @@ ul {
   display: flex;
   justify-content: space-between; }
 
-.footer__contact, .footer__nav {
+.footer__contact {
+  flex-basis: 35%; }
+
+.footer__nav {
   flex-basis: 32%; }
 
 .footer__contact {
@@ -112,7 +115,7 @@ ul {
 .footer__list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem; }
+  grid-row-gap: 2rem; }
 
 .footer__list-item > a {
   transition: all 0.2s; }
@@ -156,7 +159,7 @@ ul {
   font-size: 1.4rem; }
 
 .container {
-  max-width: 120rem;
+  max-width: 140rem;
   margin: 0 auto; }
 
 .btn {

@@ -89,7 +89,9 @@
     display: flex;
     justify-content: space-between;
   }
-  &__contact,
+  &__contact {
+    flex-basis: 35%;
+  }
   &__nav {
     flex-basis: 32%;
   }
@@ -104,7 +106,7 @@
   &__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-row-gap: 2rem;
   }
   &__list-item {
     & > a {
