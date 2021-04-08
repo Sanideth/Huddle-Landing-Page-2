@@ -182,9 +182,9 @@
   &__list-item {
     & > a {
       transition: all 0.2s;
-    }
-    &:hover > a {
-      text-decoration: underline;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   &__social {
