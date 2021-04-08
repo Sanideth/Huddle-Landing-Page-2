@@ -21,14 +21,16 @@ const MockArr = [
 ];
 
 const Footer = () => {
-  const renderNav = MockArr.map((item) => (
-    <NavItem className="footer" text={item} />
+  const renderNav = MockArr.map((item, index) => (
+    <NavItem className="footer" text={item} key={index} />
   ));
   return (
     <footer className="footer">
       <div className="footer__cta">
         <div className="footer__box">
-          <p className="cta-title">Ready To Build Your Community?</p>
+          <p className="cta-title">
+            <strong>Ready To Build Your Community?</strong>
+          </p>
           <Button text="Get Started For Free" className="pink" />
         </div>
       </div>

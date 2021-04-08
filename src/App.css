@@ -30,13 +30,13 @@ a:visited {
 ul {
   list-style: none; }
   ul a {
-    color: #fff; }
+    color: #ebfbff; }
 
 .header {
   background-color: #ebfbff;
-  padding: 3rem 0; }
+  padding: 3rem 5rem; }
   .header__intro {
-    padding: 2rem 0;
+    padding: 4rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between; }
@@ -52,7 +52,7 @@ ul {
     flex-basis: 54%; }
 
 .main {
-  padding: 10rem 0; }
+  padding: 10rem 5rem; }
   .main__info-boxes > *:not(:last-child) {
     margin-bottom: 3rem; }
   .main__info-box {
@@ -68,6 +68,11 @@ ul {
       margin-bottom: 2rem; }
   .main__img-container {
     flex-basis: 40%; }
+
+.footer a,
+.footer svg,
+.footer p {
+  opacity: 0.96; }
 
 .footer__cta {
   background-image: linear-gradient(180deg, #fff 70%, #00252e 0); }
@@ -89,9 +94,8 @@ ul {
 
 .footer__contacts {
   background-color: #00252e;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  color: #fff; }
+  padding: 6rem 5rem;
+  color: #ebfbff; }
 
 .footer__info {
   display: flex;
@@ -128,7 +132,7 @@ ul {
   margin-bottom: auto; }
   .footer__social-icons-container > .svg-container {
     border-radius: 50%;
-    border: 1px solid #fff;
+    border: 1px solid #ebfbff;
     position: relative;
     width: 3rem;
     height: 3rem;
@@ -139,7 +143,7 @@ ul {
       .footer__social-icons-container > .svg-container:hover > a svg {
         fill: #ff52bf; }
     .footer__social-icons-container > .svg-container > a svg {
-      fill: #fff;
+      fill: #ebfbff;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -175,7 +179,7 @@ ul {
 .btn-pink {
   background-color: #ff52bf;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 1.5rem 5rem; }
 
 .img {
@@ -188,6 +192,8 @@ ul {
 
 .contact-container {
   display: flex; }
+  .contact-container > .svg-container {
+    margin-right: 4.2rem; }
 
 .svg-container {
   margin-right: 2rem; }

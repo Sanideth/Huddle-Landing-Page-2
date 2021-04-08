@@ -26,7 +26,7 @@
 .btn-pink {
   background-color: $color-pink;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 1.5rem 5rem;
 }
 
@@ -42,6 +42,9 @@
 
 .contact-container {
   display: flex;
+  & > .svg-container {
+    margin-right: 4.2rem;
+  }
 }
 
 .svg-container {
